@@ -1,3 +1,15 @@
+import About from "@/components/About";
+import HomePage from "@/components/HomePage";
+import Navigation from "@/components/Navigation";
+import Project from "@/components/Project";
+
 export default function Home() {
-  return <h1> WELCOM to MY Portfolio</h1>;
+  return (
+    <>
+      <Navigation />
+      <HomePage />
+      <About />
+      <Project />
+    </>
+  );
 }
