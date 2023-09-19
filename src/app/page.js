@@ -10,9 +10,6 @@ export default function Home() {
       <Navigation />
       <HomePage />
       <About />
-      <h1 className="text-4xl text-center font-extrabold underline mb-28">
-        My Projects
-      </h1>
       <Project />
       <Contact />
     </>

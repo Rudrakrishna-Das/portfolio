@@ -1,6 +1,6 @@
 const HomePage = () => {
   return (
-    <section className="text-center w-full mx-auto mt-40 h-[31rem]">
+    <section className="text-center w-full mx-auto my-36 h-[31rem]">
       <h1 className="text-7xl font-extrabold ">HI, I AM RUDRA KRISHNA DAS</h1>
       <p className="max-w-lg my-8 mx-auto">
         Passionate front-end developer building responsive design and
