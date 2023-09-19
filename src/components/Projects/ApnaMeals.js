@@ -30,7 +30,7 @@ const ApnaMeals = () => {
         <img
           src="https://user-images.githubusercontent.com/114521277/269026536-64dc2ad6-5562-42f8-a725-b6beadf59c4a.png"
           alt="Amazon-Clone"
-          className="h-auto w-[40vw] rounded-md mb-4"
+          className="md:w-[40vw] rounded-md my-4"
         />
       </div>
     </div>

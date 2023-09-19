@@ -1,7 +1,7 @@
 const Amazon = () => {
   return (
     <div className="md:flex md:justify-around">
-      <div className="h-60 overflow-y-scroll">
+      <div className="h-64 overflow-y-scroll mb-10">
         <h1 className="text-2xl font-extrabold">Amazon-Clone</h1>
         <ul className="list-disc text-sm ml-12 my-5 space-y-3">
           <li>
@@ -49,7 +49,7 @@ const Amazon = () => {
         <img
           src="https://user-images.githubusercontent.com/114521277/269026810-f43bce10-6250-4ecd-9b52-1adaf609331f.png"
           alt="Amazon-Clone"
-          className="h-auto w-[40vw] rounded-md mb-4"
+          className="md:w-[40vw] rounded-md mb-4"
         />
       </div>
     </div>

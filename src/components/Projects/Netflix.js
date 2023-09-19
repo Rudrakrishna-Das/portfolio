@@ -5,7 +5,7 @@ const Netflix = () => {
         <img
           src="https://github.com/Rudrakrishna-Das/netflix-clone-rudra/blob/master/netflix-clone.png?raw=true"
           alt="Netflix-Clone"
-          className="h-auto w-[40vw] rounded-md mb-4"
+          className="md:w-[40vw] rounded-md mb-4"
         />
       </div>
       <div className="h-60 overflow-y-scroll">
