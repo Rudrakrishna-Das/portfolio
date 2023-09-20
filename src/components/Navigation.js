@@ -1,11 +1,12 @@
 "use client";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 import { useState } from "react";
 
 const Navigation = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className=" md:flex md:justify-between p-4 bg-black text-white  md:w-full">
+    <nav className=" fixed md:flex md:justify-between p-4 bg-black text-white  w-full">
       <h1>Rudra</h1>
       <div onClick={() => setOpen((prevState) => !prevState)}>
         {!open ? (
@@ -20,16 +21,16 @@ const Navigation = () => {
         } `}
       >
         <li className="hover:text-gray-400 transition-all duration-500">
-          <a href="#">Home</a>
+          <Link href="#home">Home</Link>
         </li>
         <li className="hover:text-gray-400 transition-all duration-500">
-          <a href="#">About</a>
+          <Link href="#about">About</Link>
         </li>
         <li className="hover:text-gray-400 transition-all duration-500">
-          <a href="#">Project</a>
+          <Link href="#project">Project</Link>
         </li>
         <li className="hover:text-gray-400 transition-all duration-500">
-          <a href="#">Contact</a>
+          <Link href="#contact">Contact</Link>
         </li>
       </ul>
     </nav>

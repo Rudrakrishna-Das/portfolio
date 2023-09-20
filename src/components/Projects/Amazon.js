@@ -1,7 +1,9 @@
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
+
 const Amazon = () => {
   return (
     <div className="md:flex md:justify-around">
-      <div className="h-64 overflow-y-scroll mb-10">
+      <div className="h-72 overflow-y-auto mb-10">
         <h1 className="text-2xl font-extrabold">Amazon-Clone</h1>
         <ul className="list-disc text-sm ml-12 my-5 space-y-3">
           <li>
@@ -51,6 +53,24 @@ const Amazon = () => {
           alt="Amazon-Clone"
           className="md:w-[40vw] rounded-md mb-4"
         />
+        <div className="text-sm mr-0 md:mr-16 space-x-3 font-serif font-extrabold md:text-left mb-10 flex justify-center md:justify-end">
+          <a
+            className="hover:text-gray-500 hover:underline transition-all ease-out duration-700 flex"
+            href="https://amazon-clone-rudra.vercel.app/"
+            target="_blank"
+          >
+            Live Demo
+            <ArrowTopRightOnSquareIcon className="h-4 ml-1" />
+          </a>
+          <a
+            className="hover:text-gray-500 hover:underline transition-all duration-700 flex"
+            href="https://github.com/Rudrakrishna-Das/amazon-clone-rudra"
+            target="_blank"
+          >
+            code
+            <ArrowTopRightOnSquareIcon className="h-4 ml-1" />
+          </a>
+        </div>
       </div>
     </div>
   );

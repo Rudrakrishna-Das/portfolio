@@ -1,12 +1,12 @@
 const Contact = () => {
   return (
-    <section className="text-right h-[50rem] my-16">
+    <section id="contact" className="text-right h-[50rem] pt-16 mb-28">
       <h1 className="text-4xl font-extrabold mb-9 text-center">Contact</h1>
       <p className="mb-14  text-center">
         Feel free to Contact me by submitting the form below and I will get back
         to you as soon as possible
       </p>
-      <div className="bg-white w-9/12 mx-auto p-10 rounded-md  ">
+      <div className="bg-white w-11/12 md:w-9/12 mx-auto p-10 rounded-md  ">
         <from>
           <div className="flex flex-col text-left text-sm my-3">
             <label htmlFor="name">Name</label>

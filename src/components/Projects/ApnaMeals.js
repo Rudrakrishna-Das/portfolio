@@ -1,7 +1,9 @@
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
+
 const ApnaMeals = () => {
   return (
     <div className="md:flex md:justify-around">
-      <div className="h-60 overflow-y-scroll">
+      <div className="h-72 overflow-y-auto">
         <h1 className="text-2xl font-extrabold">ApnaMeals</h1>
         <ul className="list-disc text-sm ml-12 my-5 space-y-3">
           <li>Created the UI using REACT, and made it mobile responsive.</li>
@@ -29,9 +31,27 @@ const ApnaMeals = () => {
       <div className="mr-2">
         <img
           src="https://user-images.githubusercontent.com/114521277/269026536-64dc2ad6-5562-42f8-a725-b6beadf59c4a.png"
-          alt="Amazon-Clone"
+          alt="ApnaMeals"
           className="md:w-[40vw] rounded-md my-4"
         />
+        <div className="text-sm mr-0 md:mr-16  space-x-3 font-serif font-extrabold md:text-left mb-10 flex justify-center md:justify-end">
+          <a
+            className="hover:text-gray-500 hover:underline transition-all ease-out duration-700 flex"
+            href="https://rudra-fooddeliveryapp.netlify.app/"
+            target="_blank"
+          >
+            Live Demo
+            <ArrowTopRightOnSquareIcon className="h-4 ml-1" />
+          </a>
+          <a
+            className="hover:text-gray-500 hover:underline transition-all duration-700 flex"
+            href="https://github.com/Rudrakrishna-Das/Food-Delivery-app"
+            target="_blank"
+          >
+            code
+            <ArrowTopRightOnSquareIcon className="h-4 ml-1" />
+          </a>
+        </div>
       </div>
     </div>
   );

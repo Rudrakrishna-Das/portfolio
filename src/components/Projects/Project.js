@@ -4,8 +4,8 @@ import Netflix from "./Netflix";
 
 const Project = () => {
   return (
-    <section className="mx-6 my-10 max-w-full">
-      <h1 className="text-4xl text-center font-extrabold underline mb-32">
+    <section id="project" className="mx-6 my-8 max-w-full py-16">
+      <h1 className="text-4xl text-center font-extrabold underline mb-16">
         My Projects
       </h1>
       <ul className="space-y-16">

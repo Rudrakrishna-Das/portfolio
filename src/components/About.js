@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 const About = () => {
   return (
-    <section className="max-h-[20rem] mx-8 lg:flex  lg:justify-between m-3 space-x-4">
-      <div className=" w-full h-60 overflow-y-auto mb-10">
+    <section
+      id="about"
+      className="mx-8 lg:flex lg:justify-between space-x-4 py-16"
+    >
+      <div className=" w-full h-60 overflow-y-auto mb-6">
         <h1 className="text-center lg:text-left text-2xl font-extrabold mb-3">
           Discover Me!
         </h1>
@@ -18,12 +23,18 @@ const About = () => {
           I'm open to <span className="text-gray-600 font-extrabold">Job</span>{" "}
           opportunities where I can contribute, learn and grow. If you have a
           good opportunity that matches my skills feel free to{" "}
-          <span className="text-gray-600 font-extrabold">contact</span> with me.
+          <Link
+            href="#contact"
+            className="text-gray-600 font-extrabold text-xl hover:text-black hover:text-2xl transition-all duration-700 "
+          >
+            contact
+          </Link>{" "}
+          with me.
         </p>
       </div>
       <div>
         <h1 className="text-center text-2xl font-extrabold mb-3">My Skills</h1>
-        <ul className="overflow-y-auto h-44 flex flex-wrap w-full">
+        <ul className="overflow-y-auto h-25 flex flex-wrap">
           <li className="skill">HTML</li>
           <li className="skill">CSS</li>
           <li className="skill">Tailwind Css</li>
