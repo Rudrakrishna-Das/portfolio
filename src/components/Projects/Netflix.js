@@ -2,7 +2,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const Netflix = () => {
   return (
-    <div className="md:flex md:justify-around p-4 pt-10  rounded-2xl shadow-[inset_2px_2px_40px_6px_black]">
+    <div className="bg-transparent md:flex md:justify-around p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
       <div className="mr-2">
         <img
           src="https://github.com/Rudrakrishna-Das/netflix-clone-rudra/blob/master/netflix-clone.png?raw=true"

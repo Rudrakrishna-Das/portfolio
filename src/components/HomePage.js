@@ -9,12 +9,18 @@ const HomePage = () => {
         pixel-perfect interfaces for better user experiences.
       </p>
       <div className="space-x-2 mt-10">
-        <button className="py-3 px-4 border rounded-3xl border-black hover:bg-black hover:text-white transition-all duration-500">
+        <Link
+          href="#contact"
+          className="py-3 px-8 border rounded-3xl border-black hover:bg-black hover:text-white transition-all duration-500"
+        >
           Hire Me
-        </button>
-        <button className="p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500">
+        </Link>
+        <Link
+          href="https://drive.google.com/u/0/uc?id=1cvNyRJCx-9LpzE0jW0lTXdPh3a7hAKYE&export=download"
+          className="p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
+        >
           Download CV
-        </button>
+        </Link>
       </div>
       <div className="mt-28 mb-0">
         <Link

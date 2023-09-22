@@ -1,10 +1,19 @@
 "use client";
+
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import MailSentSuccess from "./MailSentSuccess";
+
 const Contact = () => {
+  const [sending, setSending] = useState(false);
+  const router = useRouter();
   const formSubmitHandler = async (e) => {
     e.preventDefault();
+    setSending(true);
     const data = {
       name: e.target.sendername.value,
       email: e.target.email.value,
+      subject: e.target.subject.value,
       description: e.target.description.value,
     };
 
@@ -15,10 +24,14 @@ const Contact = () => {
       },
       body: JSON.stringify(data),
     });
+
+    const mailSent = await response.json();
+    router.push("/mail-sent");
+    setSending(false);
   };
 
   return (
-    <section id="contact" className="text-right h-[50rem] pt-16 mb-28">
+    <section id="contact" className="text-right pt-16 mb-28">
       <h1 className="text-4xl font-extrabold mb-9 text-center">Contact</h1>
       <p className="mb-14  text-center">
         Feel free to Contact me by submitting the form below and I will get back
@@ -48,11 +61,23 @@ const Contact = () => {
               className="bg-gray-200 p-4 my-2 rounded-md outline-none"
             />
           </div>
+          <div className="flex flex-col text-left text-sm my-3">
+            <label htmlFor="subject">Subject</label>
+            <input
+              className="bg-gray-200 p-4 my-2 rounded-md outline-none"
+              placeholder="Enter Your Subject"
+              type="text"
+              id="subject"
+              name="subject"
+              required
+            />
+          </div>
+
           <div className="flex flex-col text-left text-sm">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="message">Message</label>
             <textarea
               placeholder="Enter Your Message"
-              id="name"
+              id="message"
               name="description"
               required
               className="bg-gray-200 w-full h-[20rem] resize-none my-2 rounded-md outline-none p-4"
@@ -60,9 +85,14 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="py-2 px-8 border rounded-md bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
+            disabled={sending}
+            className={`${
+              sending
+                ? "py-2 px-8 border rounded-md bg-slate-500 border-slate-500 "
+                : "py-2 px-8 border rounded-md bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
+            }`}
           >
-            Submit
+            {`${sending ? "Sending" : "Submit"}`}
           </button>
         </form>
       </div>

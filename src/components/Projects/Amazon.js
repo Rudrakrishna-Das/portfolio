@@ -2,7 +2,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const Amazon = () => {
   return (
-    <div className="md:flex md:justify-around p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
+    <div className="bg-transparent md:flex md:justify-around p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
       <div className="h-72 overflow-y-auto">
         <h1 className="text-2xl font-extrabold">Amazon-Clone</h1>
         <ul className="list-disc text-sm ml-12 my-5 space-y-3">

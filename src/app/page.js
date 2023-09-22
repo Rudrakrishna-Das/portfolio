@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import BTS from "@/components/BehindTheScenes";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import HomePage from "@/components/HomePage";
@@ -12,13 +13,14 @@ export default function Home() {
         <Navigation />
       </header>
       <main>
-      <HomePage />
-      <About />
-      <Project />
-      <Contact />
+        <HomePage />
+        <About />
+        <Project />
+        <BTS />
+        <Contact />
       </main>
       <footer>
-      <Footer />
+        <Footer />
       </footer>
     </>
   );
