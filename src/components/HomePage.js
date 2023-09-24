@@ -30,7 +30,7 @@ const HomePage = () => {
           Projects
         </Link>
       </div>
-      <div className="hidden md:block md:absolute md:top-96 md:left-0 animate-bounce">
+      <div className="hidden md:block md:absolute md:top-96 md:left-0">
         <a
           href="https://www.linkedin.com/in/rudra-krishna-das-7408a0234/"
           target="_blank"
