@@ -1,10 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-
 import Link from "next/link";
 
 const HomePage = () => {
@@ -37,19 +30,32 @@ const HomePage = () => {
           Projects
         </Link>
       </div>
-      <ul className="hidden md:block md:absolute md:top-80 md:left-0">
-        <li className="side">
-          <a
-            className="max-w-20"
-            href="https://github.com/Rudrakrishna-Das"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faGithub} style={{ color: "#ffffff" }} />
-          </a>
-        </li>
-        <li className="side">a</li>
-        <li className="side">a</li>
-      </ul>
+      <div className="hidden md:block md:absolute md:top-96 md:left-0">
+        <a
+          href="https://www.linkedin.com/in/rudra-krishna-das-7408a0234/"
+          target="_blank"
+        >
+          <img
+            className="side w-16 object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
+            alt="linkedin"
+          />
+        </a>
+        <a href="https://github.com/Rudrakrishna-Das" target="_blank">
+          <img
+            className="side w-16 object-contain"
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="github"
+          />
+        </a>
+        <a href="https://twitter.com/RK16996" target="_blank">
+          <img
+            className="side w-16 object-contain"
+            src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png"
+            alt="twitter"
+          />
+        </a>
+      </div>
     </section>
   );
 };
