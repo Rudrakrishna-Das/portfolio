@@ -5,7 +5,7 @@ const BTS = () => {
         Want to see{" "}
         <a
           href="https://github.com/Rudrakrishna-Das/portfolio"
-          className="font-extrabold text-2xl text-red-500 hover:text-red-900 transition-all duration-200"
+          className="animate-pulse font-extrabold text-2xl text-red-500 hover:text-red-900 transition-all duration-200"
           target="_blank"
         >
           Behind{" "}

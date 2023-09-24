@@ -6,7 +6,7 @@ import { useState } from "react";
 const Navigation = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className=" fixed md:flex md:justify-between p-4 bg-black text-white  w-full">
+    <nav className="fixed md:flex md:justify-between p-4 bg-black text-white  w-full z-50">
       <h1>Rudra</h1>
       <div onClick={() => setOpen((prevState) => !prevState)}>
         {!open ? (

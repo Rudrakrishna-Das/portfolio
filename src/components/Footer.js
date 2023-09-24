@@ -23,26 +23,32 @@ const Footer = () => {
         <div className="text-center lg:text-left font-extrabold text-lg mt-2">
           <h1>SOCIAL</h1>
           <div className="flex space-x-4 mt-2 justify-center">
-            <div className="w-6 animate-pulse hover:w-8 transition-all duration-500">
+            <div className="w-6 animate-pulse hover:translate-y-1 transition-all duration-500 text-lg">
               <a href="https://github.com/Rudrakrishna-Das" target="_blank">
-                <FontAwesomeIcon icon={faGithub} style={{ color: "#ffffff" }} />
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  fontSize={"1.5rem"}
+                  style={{ color: "#ffffff" }}
+                />
               </a>
             </div>
-            <div className="w-6 animate-pulse hover:w-8 transition-all duration-500">
+            <div className="w-6 animate-pulse hover:translate-y-1 transition-all duration-500">
               <a
                 href="https://www.linkedin.com/in/rudra-krishna-das-7408a0234/"
                 target="_blank"
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
+                  fontSize={"1.5rem"}
                   style={{ color: "#ffffff" }}
                 />
               </a>
             </div>
-            <div className="w-6 animate-pulse hover:w-8 transition-all duration-500">
+            <div className="w-6 animate-pulse hover:translate-y-1 transition-all duration-500">
               <a href="https://twitter.com/RK16996" target="_blank">
                 <FontAwesomeIcon
                   icon={faTwitter}
+                  fontSize={"1.5rem"}
                   style={{ color: "#ffffff" }}
                 />
               </a>

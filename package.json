@@ -22,9 +22,7 @@
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-fontawesome": "^1.7.1",
-    "react-parallax": "^3.5.1",
-    "react-spring": "^9.7.2"
+    "react-fontawesome": "^1.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

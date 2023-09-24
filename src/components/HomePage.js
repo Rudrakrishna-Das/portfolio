@@ -17,7 +17,7 @@ const HomePage = () => {
         </Link>
         <Link
           href="https://drive.google.com/u/0/uc?id=1cvNyRJCx-9LpzE0jW0lTXdPh3a7hAKYE&export=download"
-          className="p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
+          className="animate-pulse p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
         >
           Download CV
         </Link>
@@ -30,7 +30,7 @@ const HomePage = () => {
           Projects
         </Link>
       </div>
-      <div className="hidden md:block md:absolute md:top-96 md:left-0">
+      <div className="hidden md:block md:absolute md:top-96 md:left-0 animate-bounce">
         <a
           href="https://www.linkedin.com/in/rudra-krishna-das-7408a0234/"
           target="_blank"
