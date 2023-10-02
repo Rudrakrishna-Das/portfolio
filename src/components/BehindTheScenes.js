@@ -1,6 +1,6 @@
 const BTS = () => {
   return (
-    <section className="z-0 text-center bg-transparent rounded-2xl shadow-[inset_2px_2px_40px_6px_gray] mx-20 py-10 px-3">
+    <section className="z-0 max-w-full text-center bg-transparent rounded-2xl shadow-[inset_2px_2px_40px_6px_gray] mx-8 py-10 px-3">
       <h5 className="font-bold text-lg">
         Want to see{" "}
         <a
