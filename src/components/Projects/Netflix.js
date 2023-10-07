@@ -3,6 +3,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 const Netflix = () => {
   return (
     <div className="bg-transparent md:flex md:justify-around p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
+      <h1 className="text-2xl font-extrabold block md:hidden">Netflix-Clone</h1>
       <div className="mr-2">
         <img
           src="https://github.com/Rudrakrishna-Das/netflix-clone-rudra/blob/master/netflix-clone.png?raw=true"
@@ -29,7 +30,9 @@ const Netflix = () => {
         </div>
       </div>
       <div className="h-72 overflow-y-auto">
-        <h1 className="text-2xl font-extrabold">Netflix-Clone</h1>
+        <h1 className="text-2xl font-extrabold hidden md:block">
+          Netflix-Clone
+        </h1>
         <ul className="list-disc text-sm ml-12 my-5 space-y-3">
           <li>Used REACT to create the UI, and made it mobile responsive</li>
           <li>Fetched data from TMDB API using Axios. </li>
