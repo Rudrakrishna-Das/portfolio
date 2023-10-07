@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <section className="text-white bg-black p-10 py-12">
-      <div className="md:flex md:justify-between mt-9 mx-16">
+      <div className="md:flex md:justify-between mt-9 mx-2 text-center md:text-left">
         <div className="space-y-1">
           <h1 className="mb-5 text-3xl font-extrabold">RUDRA KRISHNA DAS</h1>
           <p className="text-sm">
