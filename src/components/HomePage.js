@@ -16,9 +16,9 @@ const HomePage = () => {
           Hire Me
         </Link>
         <Link
-          href="https://drive.google.com/u/0/uc?id=1oVofD7-koNFaFlq4hKO2f3rtxOeEgrxM&export=download"
+          href="https://drive.google.com/u/0/uc?id=1kTCpjE16H9KX54PqRuNdX1rUEQAjp51N&export=download"
           download
-          className="animate-pulse p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
+          className="p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
         >
           Download CV
         </Link>

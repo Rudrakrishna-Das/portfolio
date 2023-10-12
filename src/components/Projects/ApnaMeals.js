@@ -5,8 +5,8 @@ const ApnaMeals = () => {
     <div className="bg-transparent p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
       <h1 className="text-2xl font-extrabold">ApnaMeals</h1>
       <div className="md:flex md:justify-around">
-        <div className="h-72 overflow-y-auto">
-          <ul className="list-disc text-sm ml-12 my-5 space-y-3">
+        <div className="h-72 overflow-y-auto space-y-10">
+          <ul className="list-disc text-sm ml-12 my-5 space-y-5">
             <li>Created the UI using REACT, and made it mobile responsive.</li>
             <li>User needs to add Items to Cart for place order</li>
             <li>User have to provide their name and address to place order.</li>

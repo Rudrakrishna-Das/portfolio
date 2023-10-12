@@ -52,7 +52,11 @@ const About = () => {
               <li className="skill">React</li>
               <li className="skill">Next.js</li>
               <li className="skill">GitHub</li>
-              <li className="skill">Resposive Design</li>
+              <li className="skill">Node.js</li>
+              <li className="skill">Express.js</li>
+              <li className="skill">RestAPI</li>
+              <li className="skill">MongoDB</li>
+              <li className="skill">Mongoose</li>
             </ul>
           </div>
         </div>

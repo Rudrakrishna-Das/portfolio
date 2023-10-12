@@ -2,11 +2,11 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const Amazon = () => {
   return (
-    <div className="bg-transparent  p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
+    <div className="bg-transparent p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
       <h1 className="text-2xl font-extrabold">Amazon-Clone</h1>
       <div className="md:flex md:justify-around">
-        <div className="h-72 overflow-y-auto">
-          <ul className="list-disc text-sm ml-12 my-5 space-y-3">
+        <div className="h-64 overflow-y-auto space-y-10">
+          <ul className="list-disc text-sm ml-12 my-5 space-y-5">
             <li>
               Created the UI using NEXT.JS & TAILWIND CSS, and made it mobile
               responsive.
