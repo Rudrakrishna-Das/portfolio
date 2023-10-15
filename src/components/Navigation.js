@@ -20,7 +20,7 @@ const Navigation = () => {
           open ? "top-[-6px] left-0 my-6 py-4 pt-14" : "top-[-200px] left-0"
         } `}
       >
-        <li className="hover:text-gray-400 transition-all duration-500">
+        <li className="hover:text-gray-400 transition-all duration-500 active:text-gray-400">
           <Link href="#home">Home</Link>
         </li>
         <li className="hover:text-gray-400 transition-all duration-500">

@@ -1,5 +1,6 @@
 import Amazon from "./Amazon";
 import ApnaMeals from "./ApnaMeals";
+import ChatGPTClone from "./ChatGPTClone";
 import Netflix from "./Netflix";
 
 const Project = () => {
@@ -12,6 +13,9 @@ const Project = () => {
         Here you will find my personal projects
       </p>
       <ul className="space-y-16">
+        <li>
+          <ChatGPTClone />
+        </li>
         <li>
           <Amazon />
         </li>

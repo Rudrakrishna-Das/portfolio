@@ -16,7 +16,7 @@ const HomePage = () => {
           Hire Me
         </Link>
         <Link
-          href="https://drive.google.com/u/0/uc?id=1kTCpjE16H9KX54PqRuNdX1rUEQAjp51N&export=download"
+          href="https://drive.google.com/u/0/uc?id=1H59Jpc0H35ssHJXnXCrqVK2BTyY6qL7i&export=download"
           download
           className="p-3 px-4 border rounded-3xl bg-black text-white border-black hover:bg-transparent hover:text-black transition-all duration-500"
         >
