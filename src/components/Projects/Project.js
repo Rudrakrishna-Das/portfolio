@@ -2,6 +2,7 @@ import Amazon from "./Amazon";
 import ApnaMeals from "./ApnaMeals";
 import ChatGPTClone from "./ChatGPTClone";
 import Netflix from "./Netflix";
+import RealEstate from "./RealEstate";
 
 const Project = () => {
   return (
@@ -13,6 +14,9 @@ const Project = () => {
         Here you will find my personal projects
       </p>
       <ul className="space-y-16">
+        <li>
+          <RealEstate />
+        </li>
         <li>
           <ChatGPTClone />
         </li>
