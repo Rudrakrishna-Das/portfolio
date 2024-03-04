@@ -3,6 +3,7 @@ import ApnaMeals from "./ApnaMeals";
 import ChatGPTClone from "./ChatGPTClone";
 import Netflix from "./Netflix";
 import RealEstate from "./RealEstate";
+import SafeBank from "./Safe Bank";
 
 const Project = () => {
   return (
@@ -14,6 +15,9 @@ const Project = () => {
         Here you will find my personal projects
       </p>
       <ul className="space-y-16">
+        <li>
+          <SafeBank />
+        </li>
         <li>
           <RealEstate />
         </li>

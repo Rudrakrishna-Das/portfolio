@@ -3,7 +3,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 const RealEstate = () => {
   return (
     <div className="bg-transparent p-4 pt-10 rounded-2xl shadow-[inset_2px_2px_40px_6px_gray]">
-      <h1 className="text-2xl font-extrabold">RealEstate</h1>
+      <h1 className="text-2xl font-extrabold">Real Estate</h1>
       <div className="md:flex md:justify-around">
         <div className="h-64 overflow-y-auto space-y-10">
           <ul className="list-disc text-sm ml-12 my-5 space-y-5">

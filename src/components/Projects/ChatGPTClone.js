@@ -9,7 +9,7 @@ const ChatGPTClone = () => {
       <div className="mr-2">
         <img
           src="https://github.com/Rudrakrishna-Das/chat--gpt-clone-frontend/blob/master/chat-gpt-clone-rudra.png?raw=true"
-          alt="Netflix-Clone"
+          alt="Chat-GPT-Clone"
           className="md:w-[40vw] rounded-md mb-4"
         />
         <div className="text-sm ml-0 md:ml-16 space-x-3 font-serif font-extrabold md:text-left mb-10 flex justify-center md:justify-normal">
