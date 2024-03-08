@@ -6,6 +6,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <section className="text-white bg-black p-10 py-12">
       <div className="md:flex md:justify-between mt-9 mx-2 text-center md:text-left">
@@ -58,7 +60,7 @@ const Footer = () => {
       </div>
       <div className="border-b-[1px] border-[rgba(255,255,255,0.2)] py-10"></div>
       <p className="text-center text-xs mt-5">
-        &copy; Copyright 2023. Made by Rudra Krishna Das
+        &copy; Copyright {year}. Made by Rudra Krishna Das
       </p>
     </section>
   );
