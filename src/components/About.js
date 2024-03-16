@@ -57,6 +57,7 @@ const About = () => {
               <li className="skill">RestAPI</li>
               <li className="skill">MongoDB</li>
               <li className="skill">Mongoose</li>
+              <li className="skill">Python</li>
             </ul>
           </div>
         </div>
