@@ -1,9 +1,11 @@
 import Amazon from "./Amazon";
 import ApnaMeals from "./ApnaMeals";
 import ChatGPTClone from "./ChatGPTClone";
+import FavMusic from "./FavMusic";
 import Netflix from "./Netflix";
 import RealEstate from "./RealEstate";
 import SafeBank from "./Safe Bank";
+import VidiMate from "./VidiMate";
 
 const Project = () => {
   return (
@@ -15,6 +17,12 @@ const Project = () => {
         Here you will find my personal projects
       </p>
       <ul className="space-y-16">
+        <li>
+          <FavMusic />
+        </li>
+        <li>
+          <VidiMate />
+        </li>
         <li>
           <SafeBank />
         </li>
