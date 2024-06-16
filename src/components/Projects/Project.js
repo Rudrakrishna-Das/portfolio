@@ -3,6 +3,7 @@ import ApnaMeals from "./ApnaMeals";
 import ChatGPTClone from "./ChatGPTClone";
 import FavMusic from "./FavMusic";
 import Netflix from "./Netflix";
+import PicMuseum from "./PicMuseum";
 import RealEstate from "./RealEstate";
 import SafeBank from "./Safe Bank";
 import VidiMate from "./VidiMate";
@@ -17,6 +18,9 @@ const Project = () => {
         Here you will find my personal projects
       </p>
       <ul className="space-y-16">
+        <li>
+          <PicMuseum />
+        </li>
         <li>
           <FavMusic />
         </li>
